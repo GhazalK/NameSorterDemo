@@ -1,37 +1,51 @@
-## Welcome to GitHub Pages
+# NameSorterDemo
 
-You can use the [editor on GitHub](https://github.com/GhazalK/NameSorterDemo/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This assessment project demonstrates a name-sorter software written in C# using .Net Core framework.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Getting Started
 
-### Markdown
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Prerequisites
 
-```markdown
-Syntax highlighted code block
+You can download or clone the project using git into your local repository.
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+$ git clone https://github.com/GhazalK/NameSorterDemo.git
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Installing
 
-### Jekyll Themes
+The project can be run using dotnet CLI Tool. 
+In order to do so, it is required to change the directory to the project main folder and 
+from the project directory build the project using the following command.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/GhazalK/NameSorterDemo/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+```
+dotnet build
+```
 
-### Support or Contact
+After building the project the following command would run the project through the CLI.
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+```
+dotnet run --project name-sorter ./unsorted-names-list.txt
+```
+
+After a successful build and run, the names will appear on the screen, and a text file will be 
+created which contains the sorted names.
+
+## Running the tests
+
+As for the assessment requirements, unit testing is conducted. In order to run the test true 
+the CLI the following command should be used. 
+
+
+```
+dotnet test
+```
+
+### And coding style 
+
+SOLID design principle is used to structure the code. 
+
+
+
