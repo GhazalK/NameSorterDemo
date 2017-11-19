@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="temp\unsorted-names-list.txt" />
+    <None Remove="temp\unsorted-names-list %28copy%29.txt" />
+    <None Remove="temp\sorted-names-list.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="temp\unsorted-names-list.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Util\Util.csproj" />
+  </ItemGroup>
+</Project>

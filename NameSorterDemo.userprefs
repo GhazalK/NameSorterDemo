@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{6F256E39-9EB9-4A2C-9DAD-AC5E1913D6AC}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Util/InputFile.cs">
+    <Files>
+      <File FileName="Util/IOInterface.cs" Line="5" Column="53" />
+      <File FileName="name-sorter/Program.cs" Line="4" Column="22" />
+      <File FileName="Util/Sorter.cs" Line="13" Column="50" />
+      <File FileName="NameSorterDemoTest/UnitTest.cs" Line="7" Column="85" />
+      <File FileName="Util/InputFile.cs" Line="18" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.name-sorter PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
